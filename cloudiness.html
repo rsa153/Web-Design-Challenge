@@ -28,6 +28,7 @@
       </div>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776</a>
   </div>
+
   <div id="wrapper">
     <div class="container">
       <div class="row">
@@ -36,7 +37,34 @@
         </div>
       </div>
 
-    
+      <div class="row">
+        <div class="col-lg-7 m-3 p-4 border bg-white">
+          <h1 class="summary border-bottom text-center">Summary: Latitude vs X</h1>
+          <div id="summary-text clearfix">
+          <img class="pull-left col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12" id="intro-img" src="Resources/images/Fig1.png">
+          <br>
+            <p>TThis scatter plot shows the percent cloudiness of each city vs the latitude of each city. Percent cloudiness is spread across all latitudes, except for cities located in latitudes between 0 and -20. According to this plot, cities located between latitudes 0 and -20 have a higher proportion of cities with higher percent cloudiness.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 border m-3 p-3 bg-white">
+          <h1 class="viz border-bottom text-center">Visualizations</h1>
+          <div class="row">
+            <img class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12" src="Resources/images/Fig1.png"
+              alt="City Latitude vs. Max Temperature" onclick="location.href = 'temperature.html';">
+            <img class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12" src="Resources/images/Fig2.png"
+              alt="City Latitude vs. Humidity" onclick="location.href = 'humidity.html';">
+          </div>
+          <br>
+          <div class="row">
+            <img class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12" src="Resources/images/Fig3.png"
+              alt="City Latitude vs. Cloudiness" onclick="location.href = 'cloudiness.html';">
+            <img class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12" src="Resources/images/Fig4.png"
+              alt="City Latitude vs. Wind Speed" onclick="location.href = 'wind.html';">
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script>
       function myFunction() {
